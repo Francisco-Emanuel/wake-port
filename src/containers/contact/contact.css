@@ -1,0 +1,84 @@
+.smart__contact {
+    padding: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.smart__contact h1 {
+    font-size: 42px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.smart__contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.smart__contact-form input {
+    margin: 1rem 0;
+    border: none;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 10px 10px 30px #c5c5c5,
+            -10px -10px 30px #ffffff;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.smart__contact-form input:focus {
+    outline-color: #fdfdfd;
+    background: #fff;
+    box-shadow: inset 10px 10px 30px #fdfdfd,
+            inset -10px -10px 30px #ffffff;
+    transition: 0.3s;
+}
+
+.smart__contact-form textarea {
+    margin: 1rem 0;
+    border: none;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 10px 10px 30px #c5c5c5,
+            -10px -10px 30px #ffffff;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.smart__contact-form textarea:focus {
+    outline-color: #fdfdfd;
+    background: #fff;
+    box-shadow: inset 10px 10px 30px #fdfdfd,
+            inset -10px -10px 30px #ffffff;
+    transition: 0.3s;
+}
+
+.smart__contact-form button {
+padding: 12.5px 30px;
+border: 0;
+border-radius: 100px;
+background-color: #2ba8fb;
+color: #ffffff;
+font-weight: Bold;
+transition: all 0.5s;
+-webkit-transition: all 0.5s;
+}
+
+.smart__contact-form button:hover {
+background-color: #6fc5ff;
+box-shadow: 0 0 20px #6fc5ff50;
+transform: scale(1.1);
+}
+
+.smart__contact-form button:active {
+background-color: #3d94cf;
+transition: all 0.25s;
+-webkit-transition: all 0.25s;
+box-shadow: none;
+transform: scale(0.98);
+}
