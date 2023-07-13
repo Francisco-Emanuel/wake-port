@@ -100,7 +100,6 @@ main {
     .header-foto {
         height: 500px;
         position: relative;
-        top: -6rem;
     }
     .smart__main-section_pic-icons {
         display: none;
@@ -113,6 +112,9 @@ main {
 }
 
 @media screen and (max-width: 512px) {
+    .smart__main {
+        padding: 1rem 2rem;
+    }
     .smart__main-section h1 {
         letter-spacing: .10rem;
         max-width: 100%;
@@ -128,7 +130,7 @@ main {
     .header-foto {
         height: 400px;
         position: relative;
-        top: -6rem;
+        bottom: 5rem;
     }
     .smart__main-section button {
         position: relative;
@@ -140,7 +142,6 @@ main {
 @media screen and (max-width: 512px) {
     .header-foto {
         height: 300px;
-        top: -10rem;
     }
     .smart__main-section button {
         top: 20rem;
