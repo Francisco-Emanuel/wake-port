@@ -1,5 +1,6 @@
 import './job.css'
 
+
 const Job = ({ img, title, desc }) => {
   return (
     <div className="smart__jobs-card">

@@ -55,8 +55,7 @@
 
 .smart__about-content p b {
     color: var( --color-light_blue);
-    text-shadow: 0px 0px 2px var( --color-light_blue);
-
+    text-shadow: none;
 }
 
 .smart__about-content button {
@@ -107,15 +106,15 @@
 
 @media screen and (max-width: 512px) {
     .smart__about-content {
+        width: 100%;
         padding: 1rem 0;
     }
-    .smart__about-pic img {
-        height: 18rem;
-        top: .1rem;
+    .smart__about-pic {
+        display: none;
     }
     .smart__about-content p {
-        width: 40vw;
-        font-size: 12px;
+        width: 100%;
+        font-size: 16px;
         margin-bottom: .5rem;
     }
     .smart__about-content button {
