@@ -6,7 +6,8 @@ const Contact = () => {
     <section>
         <div className="smart__contact">
             <h1>contato</h1>
-            <img src={Qr} alt="qrcode" id="smart__contact-qr"/>
+            <h3>clique ou escaneie o qrcode abaixo</h3>
+            <a href="http://wa.me/4396051358"><img src={Qr} alt="qrcode" id="smart__contact-qr"/></a>
         </div>
     </section>
   )
