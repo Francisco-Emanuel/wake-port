@@ -116,7 +116,7 @@ main {
         padding: 1rem 2rem;
     }
     .smart__main-section h1 {
-        letter-spacing: .10rem;
+        line-height: 2rem;
         max-width: 100%;
         font-size: 30px;
         text-align: center;

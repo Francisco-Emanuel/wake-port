@@ -4,11 +4,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 0 6rem;
-    background-color: #e5e5f7;
-    opacity: 1;
-    background-image:  linear-gradient(30deg, #fefefe 12%, transparent 12.5%, transparent 87%, #fefefe 87.5%, #fefefe), linear-gradient(150deg, #fefefe 12%, transparent 12.5%, transparent 87%, #fefefe 87.5%, #fefefe), linear-gradient(30deg, #fff 12%, transparent 12.5%, transparent 87%, #fff 87.5%, #fff), linear-gradient(150deg, #fff 12%, transparent 12.5%, transparent 87%, #fff 87.5%, #fff), linear-gradient(60deg, #ffffff77 25%, transparent 25.5%, transparent 75%, #ffffff77 75%, #ffffff77), linear-gradient(60deg, #ffffff77 25%, transparent 25.5%, transparent 75%, #ffffff77 75%, #ffffff77);
-    background-size: 46px 81px;
-    background-position: 0 0, 0 0, 23px 40px, 23px 40px, 0 0, 23px 40px;
+    background-color: #ffffff;
     max-height: 22rem;
 }
 
@@ -58,15 +54,6 @@
     text-shadow: none;
 }
 
-.smart__about-content button {
-    border: 2px solid var(--color-dark_blue);
-    border-radius: 10px;
-    background: transparent;
-    padding: .2rem 1rem;
-    color: var(--color-dark_blue);
-    font-size: 30px;
-    cursor: pointer;
-}
 
 @media screen and (max-width: 1150px) {
     .smart__about-pic img {
@@ -99,9 +86,6 @@
         width: 45vw;
         font-size: 16px;
     }
-    .smart__about-content button {
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 512px) {
@@ -116,8 +100,5 @@
         width: 100%;
         font-size: 16px;
         margin-bottom: .5rem;
-    }
-    .smart__about-content button {
-        font-size: 14px;
     }
 }

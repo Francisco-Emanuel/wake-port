@@ -14,7 +14,6 @@ const About = () => {
                 <h1>sobre</h1>
               </div>
               <p>Agência especializada em <b>Gestão de Mídia Sociais, Design e Criação de WebSite.</b> Potencialize sua marca e conquiste uma conexão poderosa com seus clientes através da internet.</p>
-              <button>como podemos ajudar?</button>
             </div>
         </div>
     </section>
