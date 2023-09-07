@@ -123,13 +123,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 #italia {
-  width: 100%;
+  width: 90vw;
+  height: 200vh;
 }
 
 #ffy {
-  width: 50%;
+  width: 90vw;
+  height: 200vh;
 }
 
 #burguer {
-  width: 50%;
+  width: 90vw;
+  height: 200vh;
 }
