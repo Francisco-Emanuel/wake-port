@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/pagination";
 import "./projects.css";
 import Italia from "../../assets/italia.png";
 import ItaliaM from "../../assets/pizzaria.png";
@@ -55,13 +55,7 @@ const Projects = () => {
             <h1>design</h1>
           </div>
           <div className="smart__projects-design_cards">
-            <Swiper
-              spaceBetween={1}
-              slidesPerView={1}
-              onSlideChange={() => console.log("slide change")}
-              onSwiper={(swiper) => console.log(swiper)}
-            >
-              <SwiperSlide>
+              <div className="smart__projects-card">
                 <Button onClick={handleOpen}>
                   <img
                     src={Italia}
@@ -79,8 +73,8 @@ const Projects = () => {
                     <img src={ItaliaM} alt="sla" id="italia" />
                   </Box>
                 </Modal>
-              </SwiperSlide>
-              <SwiperSlide>
+              </div>
+              <div className="smart__projects-card">
                 <Button onClick={handlePinto}>
                   <img
                     src={Burguer}
@@ -98,9 +92,9 @@ const Projects = () => {
                     <img src={BurguerM} alt="sla" id="burguer" />
                   </Box>
                 </Modal>
-              </SwiperSlide>
-              <SwiperSlide>
-              <Button onClick={handlePenis}>
+              </div>
+              <div className="smart__projects-card">
+                <Button onClick={handlePenis}>
                   <img
                     src={Loja}
                     className="smart__projects-card_img"
@@ -117,8 +111,7 @@ const Projects = () => {
                     <img src={LojaM} alt="sla" id="ffy" />
                   </Box>
                 </Modal>
-              </SwiperSlide>
-            </Swiper>
+              </div>
           </div>
         </div>
         <div className="smart__projects-dev">
@@ -127,13 +120,8 @@ const Projects = () => {
             <h1>dev web</h1>
           </div>
           <div className="smart__projects-dev_cards">
-            <Swiper
-              spaceBetween={1}
-              slidesPerView={1}
-              onSlideChange={() => console.log("slide change")}
-              onSwiper={(swiper) => console.log(swiper)}
-            >
-              <SwiperSlide>
+            
+              <div className="smart__projects-card">
                 <a href="https://landingpagecomtypescript.vercel.app/">
                   <img
                     src={Rest}
@@ -141,8 +129,8 @@ const Projects = () => {
                     alt="dev"
                   />
                 </a>
-              </SwiperSlide>
-              <SwiperSlide>
+              </div>
+              <div className="smart__projects-card">
                 <a href="https://design-gpt.vercel.app/">
                   <img
                     src={Gpt}
@@ -150,8 +138,8 @@ const Projects = () => {
                     alt="dev"
                   />
                 </a>
-              </SwiperSlide>
-            </Swiper>
+              </div>
+            
           </div>
         </div>
       </div>

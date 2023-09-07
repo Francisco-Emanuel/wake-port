@@ -18,6 +18,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .smart__projects-title {
+  padding: 0 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,6 +79,7 @@ body::-webkit-scrollbar-thumb {
 .smart__projects-design_cards {
   display: flex;
   flex-direction: row;
+
 }
 
 .smart__projects-dev {
@@ -112,13 +114,21 @@ body::-webkit-scrollbar-thumb {
 }
 
 .smart__projects-card_img {
-  height: 20rem;
-  width: 20rem;
+  height: 15rem;
+  width: 15rem;
 }
 
 @media screen and (max-width: 1100px) {
   .smart__projects-dev_cards img {
     height: 200;
+  }
+  .smart__projects-design_cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .smart__projects-dev_cards {
+    flex-direction: column;
   }
 }
 
