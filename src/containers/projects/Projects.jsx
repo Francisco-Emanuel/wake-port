@@ -60,8 +60,8 @@ const Projects = () => {
           </div>
           <div className="smart__projects-design_cards">
             <Swiper
-              spaceBetween={50}
-              slidesPerView={3}
+              spaceBetween={1}
+              slidesPerView={1}
               onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}
             >
@@ -133,7 +133,7 @@ const Projects = () => {
           <div className="smart__projects-dev_cards">
             <Swiper
               spaceBetween={1}
-              slidesPerView={2}
+              slidesPerView={1}
               onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}
             >
