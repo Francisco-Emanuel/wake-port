@@ -19,13 +19,10 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 900,
   boxShadow: 24,
-  p: 4,
   display: "flex",
   justifyContent: "center",
   overflow: "scroll",
-  height: "100%",
   outline: "none",
 };
 
@@ -80,7 +77,7 @@ const Projects = () => {
                   aria-describedby="modal-modal-description"
                 >
                   <Box sx={style}>
-                    <img src={ItaliaM} alt="sla" height={4000} width={900} />
+                    <img src={ItaliaM} alt="sla" id="italia" />
                   </Box>
                 </Modal>
               </SwiperSlide>
@@ -99,7 +96,7 @@ const Projects = () => {
                   aria-describedby="modal-modal-description"
                 >
                   <Box sx={style}>
-                    <img src={BurguerM} alt="sla" height={4000} width={900} />
+                    <img src={BurguerM} alt="sla" id="burguer" />
                   </Box>
                 </Modal>
               </SwiperSlide>
@@ -118,7 +115,7 @@ const Projects = () => {
                   aria-describedby="modal-modal-description"
                 >
                   <Box sx={style}>
-                    <img src={LojaM} alt="sla" height={4000} width={900} />
+                    <img src={LojaM} alt="sla" id="ffy" />
                   </Box>
                 </Modal>
               </SwiperSlide>

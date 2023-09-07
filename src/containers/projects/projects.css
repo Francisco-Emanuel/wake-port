@@ -121,3 +121,15 @@ body::-webkit-scrollbar-thumb {
     height: 200;
   }
 }
+
+#italia {
+  width: 100%;
+}
+
+#ffy {
+  width: 50%;
+}
+
+#burguer {
+  width: 50%;
+}
