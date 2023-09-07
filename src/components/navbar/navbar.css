@@ -121,3 +121,8 @@
         display: block;
     }
 }
+
+#logo {
+    height: 3rem;
+    width: 4rem;
+}
