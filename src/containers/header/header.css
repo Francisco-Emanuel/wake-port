@@ -30,7 +30,7 @@ main {
 
 .smart__main-section p {
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     max-width: 80%;
     padding: 2rem 0
@@ -41,11 +41,11 @@ main {
     padding: .5rem 0;
     border: 1px solid #fff;
     border-radius: 12px;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     background: transparent;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 600;
     text-transform: uppercase;
 }
 

@@ -23,6 +23,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .smart__projects-title h1 {
@@ -79,7 +80,6 @@ body::-webkit-scrollbar-thumb {
 .smart__projects-design_cards {
   display: flex;
   flex-direction: row;
-
 }
 
 .smart__projects-dev {
@@ -134,15 +134,36 @@ body::-webkit-scrollbar-thumb {
 
 #italia {
   width: 90vw;
-  height: 200vh;
+  height: 600vh;
 }
 
 #ffy {
   width: 90vw;
-  height: 200vh;
+  height: 600vh;
 }
 
 #burguer {
   width: 90vw;
-  height: 200vh;
+  height: 600vh;
+}
+
+.button {
+  position: absolute;
+}
+
+@media screen and (max-width: 512px) {
+  #italia {
+    width: 90vw;
+    height: 200vh;
+  }
+
+  #ffy {
+    width: 90vw;
+    height: 200vh;
+  }
+
+  #burguer {
+    width: 90vw;
+    height: 200vh;
+  }
 }

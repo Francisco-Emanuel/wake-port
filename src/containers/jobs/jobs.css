@@ -9,6 +9,7 @@
 .smart__jobs-title {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .smart__jobs-title_h {
@@ -47,5 +48,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .smart__jobs-title_h div {
+        display: none;
     }
 }

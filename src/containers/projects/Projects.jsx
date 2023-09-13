@@ -1,4 +1,6 @@
 import * as React from "react";
+import { FaBackspace } from 'react-icons/fa'
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "./projects.css";
@@ -69,7 +71,11 @@ const Projects = () => {
                   aria-labelledby="modal-modal-title"
                   aria-describedby="modal-modal-description"
                 >
+                
                   <Box sx={style}>
+                    <Button onClick={handleClose}>
+                      <FaBackspace size={60} color="#ffff00" />
+                    </Button>
                     <img src={ItaliaM} alt="sla" id="italia" />
                   </Box>
                 </Modal>
@@ -88,7 +94,11 @@ const Projects = () => {
                   aria-labelledby="modal-modal-title"
                   aria-describedby="modal-modal-description"
                 >
+
                   <Box sx={style}>
+                    <Button onClick={handlePintoc}>
+                      <FaBackspace size={60} color="#ffff00" />
+                    </Button>
                     <img src={BurguerM} alt="sla" id="burguer" />
                   </Box>
                 </Modal>
@@ -107,7 +117,11 @@ const Projects = () => {
                   aria-labelledby="modal-modal-title"
                   aria-describedby="modal-modal-description"
                 >
+                
                   <Box sx={style}>
+                    <Button onClick={handlePenisc}>
+                      <FaBackspace size={60} color="#ffff00" />
+                    </Button>
                     <img src={LojaM} alt="sla" id="ffy" />
                   </Box>
                 </Modal>

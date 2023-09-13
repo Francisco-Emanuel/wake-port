@@ -1,5 +1,6 @@
 .smart__jobs-card {
   margin: 1rem 1rem;
+  align-items: center;
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -19,6 +20,7 @@
 .smart__jobs-card-title h1 {
   font-size: 30px;
   margin: 1rem 0;
+  text-align: center;
 }
 
 .smart__jobs-card-desc p {
