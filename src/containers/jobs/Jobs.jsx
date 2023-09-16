@@ -24,7 +24,7 @@ const jobsData = [
 
 const Jobs = () => {
   return (
-    <section>
+    <section id="servicos">
       <div className="smart__jobs">
         <div className="smart__jobs-title">
           <div className="smart__jobs-title_h">

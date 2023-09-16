@@ -5,7 +5,7 @@ import { FaFacebookF, FaTiktok, FaInstagram } from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <main>
+    <main id="home">
         <Navbar />
         <div className="smart__main">
             <div className="smart__main-section">

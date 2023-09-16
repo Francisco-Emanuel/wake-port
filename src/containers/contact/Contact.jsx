@@ -3,7 +3,7 @@ import Qr from '../../assets/qrcodesmart.jpg'
 
 const Contact = () => {
   return (
-    <section>
+    <section id="contato">
         <div className="smart__contact">
             <h1>contato</h1>
             <h3>clique ou escaneie o qrcode abaixo</h3>

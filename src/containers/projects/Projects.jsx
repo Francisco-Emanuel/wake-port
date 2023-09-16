@@ -41,7 +41,7 @@ const Projects = () => {
   const handlePenisc = () => setPenis(false);
 
   return (
-    <section>
+    <section id="portfolio">
       <div className="smart__projects">
         <div className="smart__projects-title">
           <h1>nosso trabalho</h1>

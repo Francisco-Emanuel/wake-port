@@ -3,7 +3,7 @@ import Cel from '../../assets/mockup-cell.png'
 
 const About = () => {
   return (
-    <section>
+    <section id="sobre">
         <div className="smart__about">
             <div className="smart__about-pic">
               <img src={Cel} alt="cel" />
