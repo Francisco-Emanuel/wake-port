@@ -1,19 +1,18 @@
-import './job.css'
+import "./job.css";
 
-const Job = ({ img, title, desc }) => {
+const Job = ({ type, img }) => {
+  const mystyle = {
+    backgroundImage: `url(${img})`
+  };
+
   return (
-    <div className="smart__jobs-card">
-      <div className="smart__jobs-card-img">
-        <img src={img} alt="stg"/>
-      </div>
-      <div className="smart__jobs-card-title">
-        <h1>{title}</h1>
-      </div>
-      <div className="smart__jobs-card-desc">
-        <p>{desc}</p>
+    <div className="job__container" style={mystyle}>
+      <div className="job__container-inner">
+        <h1>{type}</h1>
+        <p>clique para ver</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Job
+export default Job;

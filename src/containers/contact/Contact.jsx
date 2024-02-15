@@ -1,16 +1,14 @@
-import './contact.css'
-import Qr from '../../assets/qrcodesmart.jpg'
+import "./contact.css";
 
 const Contact = () => {
   return (
-    <section id="contato">
-        <div className="smart__contact">
-            <h1>contato</h1>
-            <h3>clique ou escaneie o qrcode abaixo</h3>
-            <a href="http://wa.me/4396051358"><img src={Qr} alt="qrcode" id="smart__contact-qr"/></a>
-        </div>
+    <section className="wake__cta">
+      <div className="wake__cta-container">
+        <h1><b>“</b>transforme o marketing da sua empresa<b>”</b></h1>
+        <a href="#">receber atendimento</a>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

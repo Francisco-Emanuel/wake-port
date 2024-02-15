@@ -6,8 +6,8 @@
 }
 
 body {
-  background: var(--color-dark_blue);
-  font-family: 'Poppins', sans-serif;
+  background: var(--color-white);
+  font-family: var(--font-family);
 }
 
 a {
@@ -15,22 +15,12 @@ a {
   color: unset;
 }
 
-body::-webkit-scrollbar {
-  width: 12px;             
-}
-
-body::-webkit-scrollbar-track {
-  background: transparent;       
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(0, 0, 40);    
-  border-radius: 20px;       
-  border: none;  
-}
-
-.section__padding {
-  padding: 4rem 6rem;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5rem 16rem;
 }
 
 .section__margin {

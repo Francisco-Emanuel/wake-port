@@ -1,13 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root {
-  --font-family: 'Poppins', sans-serif;
+  --font-family: 'Rethink Sans', sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  --gradient-bar: linear-gradient(103.22deg, #005ae0 -13.86%, #33a3ff 99.55%);
   
-  --color-dark_blue: #1e3643;
-  --color-medium_blue : #285b8e;
-  --color-light_blue: #26adbb;
-  --color-one: #e4b66f;
-  --color-two: #f2e9ae;
+  --color-dark_blue: #1a1a28;
+  --color-medium_blue : #020659;
+  --color-light_blue: #005ae0;
+  --color-lighter_blue: #33a3ff;
+  --color-white: #F0F0F0;
 }
+
+/* CORES QUE NÃO ESTÃO NA PALETA PORÉM ESTÃO NO SITE
+Abre a imagem do site e dá uma olhada para entender.
+
+BOTÃO DE AÇÃO VERDE
+#0f964c
+
+CARDS DA PÁGINA DE ESTRATÉGIAS
+#131313
+
+VERDE DO WHATSAPP NO RODAPÉ
+#0cb53c
+
+CINZA DO RODPÉ
+#2c2c2c
+
+Os textos corridos do site, são pretos #00000 */

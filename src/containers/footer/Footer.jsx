@@ -1,12 +1,16 @@
-import './footer.css'
+import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="smart__footer">
-        <p>©smart result</p>
-        <p>todos os direitos reservados</p>
-    </div>
-  )
-}
+    <section className="wake__footer">
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <p>2024©Wake Company. todos os direitos reservados</p>
+    </section>
+  );
+};
 
-export default Footer
+export default Footer;

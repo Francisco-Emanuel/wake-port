@@ -1,149 +1,59 @@
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(../../assets/ftinicial.png);
+#main {
+    width: 100%;
 }
 
-.smart__main {
+.wake__header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 1rem 6rem;
 }
 
-.smart__main-section {
+.wake__header-mainTxt {
     display: flex;
     flex-direction: column;
-    max-width: 40vw;
+    max-width: 40rem;
+    gap: 1rem;
 }
 
-.smart__main-section h1 {
-    color: #fff;
-    text-align: start;
-    font-size: 36px;
-    padding-top: 3rem;
+.wake__header-mainTxt h1 {
+    font-size: 54px;
+    font-weight: bold;
 }
 
-.smart__main-section h1 b {
+.wake__header-mainTxt h1 b {
     color: var(--color-light_blue);
 }
 
-.smart__main-section p {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 300;
-    max-width: 80%;
-    padding: 2rem 0
+.wake__header-mainTxt p {
+    padding: 1rem 0 1rem 0;
+    font-size: 24px;
+    font-weight: 600;
 }
 
-.smart__main-section button {
-    margin-bottom: .5rem;
-    padding: .5rem 0;
-    border: 1px solid #fff;
-    border-radius: 12px;
-    font-size: 16px;
+.wake__header-mainTxt_fa {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-light_blue);
+    max-width: 70%;
+    text-align: center;
     color: #fff;
-    background: transparent;
-    cursor: pointer;
-    font-weight: 600;
+    padding: 1rem 0 1rem 0;
+    font-weight: 500;
+    font-size: 26px;
     text-transform: uppercase;
 }
-
-.smart__main-section button:last-child {
-    background-color: var(--color-light_blue);
+.wake__header-mainTxt_la {
     border: none;
-    color: #000;
+    background-color: transparent;
+    max-width: 70%;
+    text-align: center;
+    color: #bbbbbb;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
-.smart__main-section_pic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
-.smart__main-section_pic-icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.smart__main-section_pic-icons a {
-    margin: 1rem 0;
-}
-
-.header-foto {
-    height: 600px;
-}
-
-@media screen and (max-width: 1150px) {
-    .smart__main {
-        justify-content: center;
-        flex-direction: column;
-    }
-    .smart__main-section {
-        max-width: 80vw;
-        justify-content: center;
-        align-items: center;
-    }
-    .smart__main-section h1 {
-        font-size: 36px;
-        text-align: center;
-        max-width: 90%;
-    }
-    .smart__main-section p {
-        text-align: center;
-        padding: .5rem 0;
-        max-width: 60%;
-
-    }
-    .header-foto {
-        height: 500px;
-        position: relative;
-    }
-    .smart__main-section_pic-icons {
-        display: none;
-    }
-    .smart__main-section button {
-        position: relative;
-        top: 32rem;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 512px) {
-    .smart__main {
-        padding: 1rem 2rem;
-    }
-    .smart__main-section h1 {
-        line-height: 2rem;
-        max-width: 100%;
-        font-size: 30px;
-        text-align: center;
-    }
-    .smart__main-section p {
-        text-align: center;
-        padding: .5rem 0;
-        max-width: 80%;
-
-    }
-    .header-foto {
-        height: 400px;
-        position: relative;
-        bottom: 5rem;
-    }
-    .smart__main-section button {
-        position: relative;
-        top: 25rem;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 512px) {
-    .header-foto {
-        height: 300px;
-    }
-    .smart__main-section button {
-        top: 20rem;
-    }
+.wake__header-mainImg img {
+    width: 40rem;
 }

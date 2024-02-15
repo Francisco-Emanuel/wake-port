@@ -1,15 +1,17 @@
 import './App.css'
-import {  Header, About, Jobs, Projects, Contact, Footer } from './containers'
+import {  Header, How, Jobs, Slider, Contact, Footer } from './containers'
 
 function App() {
 
   return (
     <>
-      <Header />
-      <About />
-      <Jobs />
-      <Projects />
-      <Contact />
+      <div className="container">
+        <Header />
+        <How />
+        <Slider />
+        <Jobs />
+        <Contact />
+      </div>
       <Footer />
     </>
   )
