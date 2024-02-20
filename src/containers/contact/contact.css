@@ -38,3 +38,12 @@
   font-weight: 600;
   height: 100%;
 }
+
+@media (width < 1920px) {
+  .wake__cta-container h1 {
+    font-size: 27px;
+  }
+  .wake__cta-container a {
+    font-size: 18px;
+  }
+}

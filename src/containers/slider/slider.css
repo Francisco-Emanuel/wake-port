@@ -48,9 +48,6 @@
   font-weight: 600;
 }
 
-
-
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -73,7 +70,6 @@
   height: 100%;
   object-fit: cover;
 }
-
 
 .slider-card {
   background-color: var(--color-light_blue);
@@ -132,5 +128,37 @@
 
 .down img {
   width: 30rem;
+}
 
+@media (width < 1920px) {
+  .wake__slide-title h1 {
+    font-size: 35px;
+  }
+  .wake__slide-btn a {
+    font-size: 18px;
+  }
+  .up img {
+    width: 2rem;
+  }
+
+  .up h1 {
+    font-size: 35px;
+  }
+
+  .up p {
+    font-size: 18px;
+    padding: 1rem 0;
+  }
+
+  .up ul li {
+    font-size: 14px;
+  }
+
+  .up ul li::marker {
+    font-size: 22px;
+  }
+
+  .down img {
+    width: 20rem;
+  }
 }

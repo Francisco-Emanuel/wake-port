@@ -33,3 +33,10 @@
   text-transform: uppercase!important;
   color: var(--color-light_blue);
 }
+
+@media (width < 1920px) {
+  .job__container {
+    min-width: 31%;
+    min-height: 300px;
+  }
+}

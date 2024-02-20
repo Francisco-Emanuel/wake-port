@@ -30,3 +30,13 @@
   font-weight: 400;
   min-width: 60%;
 }
+
+@media (width < 1920px) {
+  .card__container h1 {
+    font-size: 26px;
+  }
+  .card__container p {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}

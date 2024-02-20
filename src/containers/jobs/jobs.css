@@ -30,3 +30,12 @@
     align-items: center;
     margin: 2rem 0;
 }
+
+@media (width < 1920px) {
+    .wake__jobs h1 {
+        font-size: 35px;
+    }
+    .wake__jobs p {
+        font-size: 18px;
+    }
+}
