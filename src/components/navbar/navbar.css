@@ -6,3 +6,18 @@
 .wake__navbar img {
     width: 10rem;
 }
+
+@media (width < 1920px) {
+    .wake__navbar {
+        padding: 0 0 2rem 0;
+    }
+}
+
+@media (width < 1280px) {
+    .wake__navbar {
+        padding: 0 0 1rem 0;
+    }
+    .wake__navbar img {
+        width: 7rem;
+    }
+}

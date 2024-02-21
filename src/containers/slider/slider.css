@@ -162,3 +162,36 @@
     width: 20rem;
   }
 }
+
+@media (width < 1280px) {
+  .wake__slide-title h1 {
+    font-size: 24px;
+  }
+  .wake__slide-btn a {
+    font-size: 13px;
+  }
+  .up img {
+    width: 2rem;
+  }
+
+  .up h1 {
+    font-size: 24px;
+  }
+
+  .up p {
+    font-size: 13px;
+    padding: 1rem 0;
+  }
+
+  .up ul li {
+    font-size: 14px;
+  }
+
+  .up ul li::marker {
+    font-size: 22px;
+  }
+
+  .down img {
+    width: 100%;
+  }
+}

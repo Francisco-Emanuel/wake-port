@@ -86,3 +86,20 @@
     font-size: 18px;
   }
 }
+
+@media (width < 1280px) {
+  .wake__how-title h1 {
+    font-size: 24px;
+  }
+  .wake__how-title p {
+    font-size: 13px;
+    font-weight: 500;
+    max-width: 47%;
+  }
+  .grid-item {
+    min-height: 12rem;
+  }
+  .wake__how-btn a {
+    font-size: 13px;
+  }
+}

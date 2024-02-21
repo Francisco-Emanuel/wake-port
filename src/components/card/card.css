@@ -40,3 +40,13 @@
     letter-spacing: 1px;
   }
 }
+
+@media (width < 1280px) {
+  .card__container h1 {
+    font-size: 20px;
+  }
+  .card__container p {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+}

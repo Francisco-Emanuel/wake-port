@@ -40,3 +40,18 @@
     min-height: 300px;
   }
 }
+
+@media (width < 1280px) {
+  .job__container {
+    min-width: 31%;
+    min-height: 200px;
+  }
+  .job__container-inner h1 {
+    font-size: 18px!important;
+    font-weight: bolder!important;
+  }
+  
+  .job__container-inner p {
+    font-size: 13px!important;
+  }
+}
