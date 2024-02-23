@@ -70,6 +70,10 @@
   width: 100%;
 }
 
+.normal-grid {
+  display: none;
+}
+
 @media (width < 1920px) {
   .wake__how-title h1 {
     font-size: 35px;
@@ -101,5 +105,39 @@
   }
   .wake__how-btn a {
     font-size: 13px;
+  }
+}
+
+@media (width < 854px) {
+  .wake__how-title {
+    padding: 4rem 0 0 0;
+  }
+  .wake__how-title h1 {
+    font-size: 18px;
+  }
+  .wake__how-title p {
+    font-size: 10px;
+    font-weight: 500;
+    max-width: 47%;
+  }
+  .wake__how-btn a {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .grid-item {
+    min-height: 10rem;
+  }
+  .top {
+    display: none;
+  }
+  .bottom {
+    display: none;
+  }
+  .normal-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 4rem;
+    gap: 1rem;
   }
 }

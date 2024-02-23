@@ -1,12 +1,12 @@
 import "./slider.css";
 import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination, Navigation } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination, Navigation } from "swiper/modules";
 
-import Tgdt from '../../assets/trampo-gestordetrafego.png'
-import Ti from '../../assets/tic.svg'
+import Tgdt from "../../assets/trampo-gestordetrafego.png";
+import Ti from "../../assets/tic.svg";
 
 const Slider = () => {
   return (
@@ -28,10 +28,10 @@ const Slider = () => {
           <SwiperSlide>
             <div className="slider-card">
               <div className="up">
-                <div>
-                  <img src={Ti} alt="fugueti" size={24} />
-                </div>
-                <h1>Gestão de tráfego</h1>
+                <h1>
+                  Gestão de tráfego
+                  <img src={Ti} alt="foguete" size={24} />
+                </h1>
                 <p>Gestão de anúncios online no Google e Meta</p>
                 <hr />
                 <ul>
@@ -48,10 +48,10 @@ const Slider = () => {
           <SwiperSlide>
             <div className="slider-card">
               <div className="up">
-                <div>
-                  <img src={Ti} alt="fugueti" size={24} />
-                </div>
-                <h1>Gestão de tráfego</h1>
+                <h1>
+                  Gestão de tráfego
+                  <img src={Ti} alt="foguete" size={24} />
+                </h1>
                 <p>Gestão de anúncios online no Google e Meta</p>
                 <hr />
                 <ul>
@@ -68,10 +68,10 @@ const Slider = () => {
           <SwiperSlide>
             <div className="slider-card">
               <div className="up">
-                <div>
-                  <img src={Ti} alt="fugueti" size={24} />
-                </div>
-                <h1>Gestão de tráfego</h1>
+                <h1>
+                  Gestão de tráfego
+                  <img src={Ti} alt="foguete" size={24} />
+                </h1>
                 <p>Gestão de anúncios online no Google e Meta</p>
                 <hr />
                 <ul>
@@ -85,8 +85,6 @@ const Slider = () => {
               </div>
             </div>
           </SwiperSlide>
-          
-
         </Swiper>
       </div>
       <div className="wake__slide-btn">

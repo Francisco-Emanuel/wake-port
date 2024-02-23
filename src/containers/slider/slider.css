@@ -96,6 +96,8 @@
 .up h1 {
   color: #fff;
   font-size: 62px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .up p {
@@ -173,24 +175,79 @@
   .up img {
     width: 2rem;
   }
-
   .up h1 {
     font-size: 24px;
   }
-
   .up p {
     font-size: 13px;
     padding: 1rem 0;
   }
-
   .up ul li {
     font-size: 14px;
   }
-
   .up ul li::marker {
     font-size: 22px;
   }
+  .down img {
+    width: 100%;
+  }
+}
 
+@media (width < 854px) {
+  .wake__slide-title h1 {
+    font-size: 18px;
+  }
+  .wake__slide-btn a {
+    font-size: 10px;
+  }
+  .slider-card {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  } 
+  .up {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    padding: 0 2rem;
+  }
+  .up img {
+    width: 3rem;
+  }
+  .up h1 {
+    color: #fff;
+    font-size: 30px;
+    flex-direction: row;
+    gap: 3.5rem;
+  }
+  .up p {
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem 0;
+    max-width: 70%;
+  }
+  .up hr {
+    border: 1px solid black;
+    max-width: 50%;
+    margin: 1rem 0;
+  }
+  .up ul li {
+    font-size: 18px;
+    color: #fff;
+  }
+  .up ul li::marker {
+    color: #000;
+    font-size: 24px;
+  }
+  .down {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 4rem;
+  }
   .down img {
     width: 100%;
   }

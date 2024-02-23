@@ -38,3 +38,9 @@ a {
     padding: 5rem 7rem;
   }
 }
+
+@media (width < 854px) {
+  .container {
+    padding: 5rem 5rem;
+  }
+}

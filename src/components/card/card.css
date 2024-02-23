@@ -50,3 +50,19 @@
     letter-spacing: 1px;
   }
 }
+
+@media (width < 854px) {
+  .card__container {
+    gap: .5rem;
+  }
+  .card__container img {
+    width: 3rem;
+  }
+  .card__container h1 {
+    font-size: 24px;
+  }
+  .card__container p {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+}

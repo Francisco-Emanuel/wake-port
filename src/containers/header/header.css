@@ -97,3 +97,20 @@
     font-size: 13px;
   }
 }
+
+@media (width < 854px) {
+  .wake__header-mainTxt h1 {
+    font-size: 18px;
+  }
+  .wake__header-mainTxt p {
+    padding: 0 0;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .wake__header-mainTxt_fa {
+    font-size: 10px;
+  }
+  .wake__header-mainTxt_la {
+    font-size: 10px;
+  }
+}
