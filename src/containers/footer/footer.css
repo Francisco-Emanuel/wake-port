@@ -70,3 +70,21 @@
         display: none!important;
     }
 }
+
+@media (width < 854px) {
+  #footer-logo {
+    width: 8rem;
+  }
+  #footer-links {
+    gap: 3px;
+  }
+  #footer-links a {
+    font-size: 16px;
+  }
+  #footer-links button {
+    font-size: 16px;
+  }
+  #whatsapp-footer_second {
+    font-size: 16px;
+  }
+}

@@ -56,3 +56,12 @@
     font-size: 13px;
   }
 }
+
+@media (width < 854px) {
+  .wake__cta-container h1 {
+    font-size: 17px;
+  }
+  .wake__cta-container a {
+    font-size: 10px;
+  }
+}
