@@ -141,3 +141,42 @@
     gap: 1rem;
   }
 }
+
+@media (width < 640px) {
+  .wake__how-title {
+    padding: 4rem 0 0 0;
+  }
+  .wake__how-title h1 {
+    font-size: 24px;
+  }
+  .wake__how-title p {
+    font-size: 11px;
+    font-weight: 500;
+    max-width: 70%;
+  }
+  .wake__how-btn a {
+    padding: 1rem 2rem;
+    font-size: 11px;
+    max-width: 100%;
+  }
+  .grid-item {
+    height: 150px;
+    width: 45%;
+  }
+  .top {
+    display: none;
+  }
+  .bottom {
+    display: none;
+  }
+  .normal-grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: .5rem;
+    padding: 0;
+  }
+}

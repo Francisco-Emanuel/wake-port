@@ -65,3 +65,18 @@
     font-size: 10px;
   }
 }
+
+@media (width < 640px) {
+  .wake__cta {
+    display: none;
+  }
+  .wake__cta-container {
+    border-radius: 0;
+  }  
+  .wake__cta-container h1 {
+    font-size: 18px;
+  } 
+  .wake__cta-container a {
+    font-size: 13px;
+  }
+}

@@ -49,9 +49,18 @@
     }
 }
 
-@media (width < 1280px) {
+@media (width < 854px) {
     .wake__jobs h1 {
         font-size: 18px;
+    }
+    .wake__jobs p {
+        font-size: 10px;
+    }
+}
+
+@media (width < 640px) {
+    .wake__jobs h1 {
+        font-size: 24px;
     }
     .wake__jobs p {
         font-size: 10px;

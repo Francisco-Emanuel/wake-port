@@ -66,3 +66,20 @@
     letter-spacing: 1px;
   }
 }
+
+@media (width < 640px) {
+  .card__container {
+    gap: 5px;
+  }
+  .card__container img {
+    width: 35px;
+  }
+  .card__container h1 {
+    font-size: 18px;
+  }
+  .card__container p {
+    font-size: 10px;
+    width: 100%;
+    letter-spacing: 0;
+  }
+}

@@ -1,0 +1,9 @@
+.wake__ctaP {
+  display: none;
+}
+
+@media (width < 640px) {
+  .wake__ctaP {
+    display: flex;
+  }  
+}

@@ -1,5 +1,5 @@
 import './App.css'
-import {  Header, How, Jobs, Slider, Contact, Footer } from './containers'
+import {  Header, How, Jobs, Slider, Contact, Footer, ContactP } from './containers'
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
         <Jobs />
         <Contact />
       </div>
+      <ContactP />
       <Footer />
     </>
   )
