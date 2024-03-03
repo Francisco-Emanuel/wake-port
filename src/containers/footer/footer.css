@@ -88,3 +88,9 @@
     font-size: 16px;
   }
 }
+
+@media (width < 640px) {
+  .wake__footer-sub_container {
+    padding-left: 1rem;
+  }
+}

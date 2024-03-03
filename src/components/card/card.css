@@ -69,17 +69,17 @@
 
 @media (width < 640px) {
   .card__container {
-    gap: 5px;
+    gap: 3px;
   }
   .card__container img {
-    width: 35px;
+    width: 30px;
   }
   .card__container h1 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .card__container p {
     font-size: 10px;
-    width: 100%;
+    width: 150%;
     letter-spacing: 0;
   }
 }

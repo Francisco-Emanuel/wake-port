@@ -65,8 +65,22 @@
     font-size: 18px!important;
     font-weight: bolder!important;
   }
-  
   .job__container-inner p {
     font-size: 13px!important;
+  }
+}
+
+@media (width < 640px) {
+  .job__container {
+    min-width: 45%;
+    min-height: 200px;
+  }
+  .job__container-inner h1 {
+    font-size: 11px!important;
+    font-weight: bolder!important;
+    letter-spacing: .5px;
+  }
+  .job__container-inner p {
+    font-size: 8px!important;
   }
 }
