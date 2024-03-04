@@ -91,6 +91,10 @@
 
 @media (width < 640px) {
   .wake__footer-sub_container {
+    width: 50%;
     padding-left: 1rem;
+  }
+  #whatsapp-footer_second {
+    width: 100%;
   }
 }
