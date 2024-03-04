@@ -1,5 +1,11 @@
 import Job from "../../components/job/Job";
 import "./jobs.css";
+import Pizza from '../../assets/capapizza.png'
+import Site from '../../assets/capasite2.png'
+import Ham from '../../assets/capahamburguer.png'
+import SiteD from '../../assets/capasite1.png'
+import Soc from '../../assets/port-socialmedia.png'
+import Ffy from '../../assets/capaffy.png'
 
 const Jobs = () => {
   return (
@@ -7,12 +13,12 @@ const Jobs = () => {
       <h1>O que a <b>Wake</b> ja fez</h1>
       <p>Conheça os nossos trabalhos anteriores</p>
       <div className="wake__jobs-cards">
-        <Job type="identidade visual" img="/src/assets/capapizza.png" />
-        <Job type="website" img="/src/assets/capasite2.png" />
-        <Job type="identidade visual" img="/src/assets/capahamburguer.png" />
-        <Job type="website" img="/src/assets/capasite1.png" />
-        <Job type="social media" img="/src/assets/port-socialmedia.png" />
-        <Job type="identidade visual" img="/src/assets/capaffy.png" />
+        <Job type="identidade visual" img={Pizza} />
+        <Job type="website" img={Site} />
+        <Job type="identidade visual" img={Ham} />
+        <Job type="website" img={SiteD} />
+        <Job type="social media" img={Soc} />
+        <Job type="identidade visual" img={Ffy} />
       </div>
     </section>
   );
