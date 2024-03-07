@@ -6,6 +6,22 @@ import Retencao from '../../assets/retencao.svg'
 import Aac from '../../assets/arrumaracasa.svg'
 import Ts from '../../assets/trafego-servico.svg'
 
+document.addEventListener('DOMContentLoaded', function () {
+      // Seleciona todos os links que têm a classe "external-link"
+      var links = document.querySelectorAll('#external-link');
+
+      // Adiciona um ouvinte de evento a cada link
+      links.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+          // Impede o comportamento padrão de clique no link
+          event.preventDefault();
+
+          // Abre o link em uma nova guia usando window.open
+          window.open(link.href, '_blank');
+        });
+      });
+    });
+
 const How = () => {
   return (
     <section className="wake__how">
@@ -98,7 +114,7 @@ const How = () => {
         </div>
       </div>
       <div className="wake__how-btn">
-        <a href="#">Quero uma consultoria estratégica</a>
+        <a href="https://wa.me/+554396051358" id="external-link">Quero uma consultoria estratégica</a>
       </div>
     </section>
   );

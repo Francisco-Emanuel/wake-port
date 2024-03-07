@@ -112,6 +112,11 @@
   margin: 1rem 0;
 }
 
+.up ul {
+  position: relative;
+  left: 3%;
+}
+
 .up ul li {
   font-size: 18px;
   color: #fff;

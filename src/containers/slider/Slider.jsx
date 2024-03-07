@@ -56,7 +56,7 @@ const Slider = () => {
                 <hr />
                 <ul>
                   <li>Alcance específico</li>
-                  <li>Destaque entre a concorrÊncia</li>
+                  <li>Destaque entre a concorrência</li>
                   <li>Monitoramento de campanha</li>
                 </ul>
               </div>

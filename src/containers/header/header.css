@@ -13,6 +13,7 @@
   flex-direction: column;
   max-width: 50%;
   gap: 1rem;
+  justify-content: center;
 }
 
 .wake__header-mainTxt h1 {
@@ -25,6 +26,7 @@
 }
 
 .wake__header-mainTxt p {
+  max-width: 80%;
   padding: 1rem 0;
   font-size: 24px;
   font-weight: 600;

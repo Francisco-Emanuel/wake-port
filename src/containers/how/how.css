@@ -41,7 +41,8 @@
   border: none;
   border-radius: 10px;
   padding: 1rem 2rem;
-  font-size: 24px;
+  font-size: 20px;
+  text-transform: uppercase;
   max-width: 47%;
 }
 
@@ -124,6 +125,7 @@
     font-size: 10px;
     font-weight: 600;
     letter-spacing: 0.5px;
+    max-width: 50%;
   }
   .grid-item {
     min-height: 10rem;
