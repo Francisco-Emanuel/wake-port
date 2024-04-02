@@ -72,7 +72,7 @@
 }
 
 .slider-card {
-  background-color: var(--color-light_blue);
+  background: var(--gradient-card);
   padding: 2rem;
   border: none;
   border-radius: 30px;

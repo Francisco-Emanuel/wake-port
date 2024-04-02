@@ -6,11 +6,15 @@ import "swiper/css/pagination";
 import { Pagination, Navigation } from "swiper/modules";
 
 import Tgdt from "../../assets/trampo-gestordetrafego.png";
+import Tc from "../../assets/trampo-consultoria.png";
+import Td from "../../assets/trampo-design.png";
+import Tsm from "../../assets/trampo-socialmedia.png";
+import Tws from "../../assets/trampo-websites.png";
 import Ti from "../../assets/tic.svg";
 
 const Slider = () => {
   return (
-    <section className="wake__slide">
+    <section className="wake__slide" id="slide">
       <div className="wake__slide-title">
         <h1>
           Conheça o que a <b>Wake pode trazer</b> para a sua empresa.
@@ -21,6 +25,7 @@ const Slider = () => {
           pagination={{
             dynamicBullets: true,
           }}
+          spaceBetween={30}
           navigation={true}
           modules={[Pagination, Navigation]}
           className="mySwiper"
@@ -61,7 +66,7 @@ const Slider = () => {
                 </ul>
               </div>
               <div className="down">
-                <img src={Tgdt} alt="img" />
+                <img src={Tsm} alt="img" />
               </div>
             </div>
           </SwiperSlide>
@@ -80,7 +85,7 @@ const Slider = () => {
                 </ul>
               </div>
               <div className="down">
-                <img src={Tgdt} alt="img" />
+                <img src={Td} alt="img" />
               </div>
             </div>
           </SwiperSlide>
@@ -100,7 +105,7 @@ const Slider = () => {
                 </ul>
               </div>
               <div className="down">
-                <img src={Tgdt} alt="img" />
+                <img src={Tws} alt="img" />
               </div>
             </div>
           </SwiperSlide>
@@ -120,7 +125,7 @@ const Slider = () => {
                 </ul>
               </div>
               <div className="down">
-                <img src={Tgdt} alt="img" />
+                <img src={Tc} alt="img" />
               </div>
             </div>
           </SwiperSlide>
