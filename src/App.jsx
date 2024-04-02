@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div className="container">
+      <div className="container" id="htmx">
         <Header />
         <How />
         <Slider />

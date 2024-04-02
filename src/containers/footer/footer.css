@@ -54,7 +54,7 @@
 }
 
 #whatsapp-footer_second {
-  display: none;
+  display: flex;
   color: #0cb53c;
   font-size: 18px;
   text-decoration: underline;
@@ -62,13 +62,17 @@
   margin-bottom: 5px;
 }
 
-@media (width < 1280px) {
-    #whatsapp-footer_second {
-        display: flex;
-    }
-    #whatsapp-footer {
-        display: none!important;
-    }
+#back-footer_second {
+  display: flex;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: underline;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.wake__footer-sub_container p {
+  font-size: 10px;
 }
 
 @media (width < 854px) {

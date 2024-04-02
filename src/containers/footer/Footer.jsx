@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaTiktok,
   FaLinkedinIn,
+  FaAngleUp  ,
 } from "react-icons/fa6";
 
 const Footer = () => {
@@ -33,39 +34,24 @@ const Footer = () => {
             <FaLinkedinIn size={24} />
           </div>
         </div>
-        <div className="wake__footer-sub_container" id="whatsapp-footer">
-          <a
-            href="https://wa.me/+5543984522151"
-            style={{
-              display: "flex",
-              color: "#0cb53c",
-              fontSize: "18px",
-              textDecoration: "underline",
-            }}
-          >
-            <FaWhatsapp color="#0cb53c" size={24} />
-            Whatsapp da Wake
-          </a>
-        </div>
         <div
           className="wake__footer-sub_container"
           style={{ textAlign: "start" }}
           id="footer-links"
         >
+          <a href="#htmx" id="back-footer_second">
+            <FaAngleUp  color="#fff" size={24} />
+            Voltar ao topo
+          </a>
           <a href="https://wa.me/+5543984522151" id="whatsapp-footer_second">
             <FaWhatsapp color="#0cb53c" size={24} />
             Whatsapp da Wake
           </a>
-          <a href="#">Home</a>
-          <a href="#">Estratégias</a>
-          <a href="#">Serviços</a>
-          <a href="#">Portfólio</a>
-          <button>Contato</button>
         </div>
       </div>
       <p style={{
         color: "#808080",
-      }}>2024©Wake Company. todos os direitos reservados</p>
+      }}>2024©Wake Company. Todos os direitos reservados</p>
     </section>
   );
 };
