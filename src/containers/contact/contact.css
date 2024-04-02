@@ -17,10 +17,13 @@
 }
 
 .wake__cta-container h1 {
-  font-size: 48px;
+  font-size: 46px;
+  font-weight: 500;
   color: #fff;
   max-width: 50%;
   text-transform: uppercase;
+  font-family: var(--font-bebas)!important;
+
 }
 
 .wake__cta-container h1 b {

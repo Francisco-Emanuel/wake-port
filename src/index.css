@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root {
   --font-family: 'Rethink Sans', sans-serif;
+  --font-bebas: 'Bebas Neue', sans-serif;
 
   --gradient-bar: linear-gradient(103.22deg, #005ae0 -13.86%, #33a3ff 99.55%);
   

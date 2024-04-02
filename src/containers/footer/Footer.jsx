@@ -17,7 +17,9 @@ const Footer = () => {
           <p style={{ marginBottom: "4rem" }}>
             Despertar, transormar e conquistar
           </p>
-          <h1>Siga-nos</h1>
+          <h1 style={{
+            marginBottom: "10px",
+          }}>Siga-nos</h1>
           <div
             style={{
               display: "flex",
@@ -61,7 +63,9 @@ const Footer = () => {
           <button>Contato</button>
         </div>
       </div>
-      <p>2024©Wake Company. todos os direitos reservados</p>
+      <p style={{
+        color: "#808080",
+      }}>2024©Wake Company. todos os direitos reservados</p>
     </section>
   );
 };

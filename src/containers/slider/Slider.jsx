@@ -49,15 +49,15 @@ const Slider = () => {
             <div className="slider-card">
               <div className="up">
                 <h1>
-                  Gestão de tráfego
+                  Social Media
                   <img src={Ti} alt="foguete" size={24} />
                 </h1>
-                <p>Gestão de anúncios online no Google e Meta</p>
+                <p>Gestão estratégica de redes sociais</p>
                 <hr />
                 <ul>
-                  <li>Alcance específico</li>
-                  <li>Destaque entre a concorrência</li>
-                  <li>Monitoramento de campanha</li>
+                  <li>Redes sociais atrativas</li>
+                  <li>gerar mais alcance</li>
+                  <li>estratégia</li>
                 </ul>
               </div>
               <div className="down">
@@ -69,15 +69,54 @@ const Slider = () => {
             <div className="slider-card">
               <div className="up">
                 <h1>
-                  Gestão de tráfego
+                  Identidade visual
                   <img src={Ti} alt="foguete" size={24} />
                 </h1>
-                <p>Gestão de anúncios online no Google e Meta</p>
+                <p>Criação de marca</p>
                 <hr />
                 <ul>
-                  <li>Alcance específico</li>
-                  <li>Destaque entre a concorrÊncia</li>
-                  <li>Monitoramento de campanha</li>
+                  <li>Uma marca unica</li>
+                  <li>Fortalecimento de marca</li>
+                </ul>
+              </div>
+              <div className="down">
+                <img src={Tgdt} alt="img" />
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slider-card">
+              <div className="up">
+                <h1>
+                  Desenvolvimento de sites
+                  <img src={Ti} alt="foguete" size={24} />
+                </h1>
+                <p>Site feito sob medida</p>
+                <hr />
+                <ul>
+                  <li>Mais profissionalismo</li>
+                  <li>Destaque-se da sua concorrência</li>
+                  <li>Venda pela internet</li>
+                </ul>
+              </div>
+              <div className="down">
+                <img src={Tgdt} alt="img" />
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slider-card">
+              <div className="up">
+                <h1>
+                  Consultoria
+                  <img src={Ti} alt="foguete" size={24} />
+                </h1>
+                <p>Estratégias personalizadas para conquistar e manter clientes</p>
+                <hr />
+                <ul>
+                  <li>Focar em melhorias</li>
+                  <li>Mostrar o que está dando errado</li>
+                  <li>Entregar soluções</li>
                 </ul>
               </div>
               <div className="down">
@@ -88,7 +127,7 @@ const Slider = () => {
         </Swiper>
       </div>
       <div className="wake__slide-btn">
-        <a href="#">Quero a ajuda de vocês</a>
+        <a href="https://wa.me/+554396051358">Quero a ajuda de vocês</a>
       </div>
     </section>
   );
