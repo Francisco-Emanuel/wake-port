@@ -1,11 +1,11 @@
 import Job from "../../components/job/Job";
-import "./jobs.css";
 import Pizza from '../../assets/capapizza.png'
 import Site from '../../assets/capasite2.png'
 import Ham from '../../assets/capahamburguer.png'
 import SiteD from '../../assets/capasite1.png'
 import Soc from '../../assets/port-socialmedia.png'
 import Ffy from '../../assets/capaffy.png'
+import "./jobs.css";
 
 const Jobs = () => {
   return (
